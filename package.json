@@ -1,0 +1,17 @@
+{
+    "name": "@barfittc/vue-service-provider",
+    "version": "0.1.1",
+    "main": "index.ts",
+    "private": false,
+    "scripts": {
+    },
+    "dependencies": {
+      "reflect-metadata": "^0.1.13",
+        "vue": "^3.3.0"
+    },
+    "devDependencies": {
+    },
+    "publishConfig": {
+      "access": "public"
+    }
+}
