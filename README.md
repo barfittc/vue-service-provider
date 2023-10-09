@@ -1,10 +1,9 @@
+in tsconfig
 ```json
 {
   "compilerOptions": {
     "emitDecoratorMetadata": true
-  },
-  "include": ["src/**/*", "src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  }
 }
 
 ```
@@ -55,7 +54,7 @@ export function addServiceProviderConsumer ():Plugin {
 }
 ```
 
-inside your setup script
+inside your `<script setup lang="ts">`
 ```ts
 const one = getService(TestConsumerOne);
 console.log(one.test.hello);
